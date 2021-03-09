@@ -44,7 +44,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: var(--dark);
-  padding: 15px;
+  padding: 35px 15px 20px;
   display: none;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
@@ -81,7 +81,7 @@ body {
 }
 
 .navigation-mobile {
-  margin: 30vh auto;
+  margin: 25vh auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -105,7 +105,7 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1300px;
-  padding: 2vh 0;
+  padding: 1vh 0;
 }
 
 .custom-btn-01 {
@@ -207,9 +207,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 8vh;
+  height: 12vh;
   padding: 0 80px;
-  margin-bottom: 2vh;
+  margin-bottom: 1vh;
 }
 
 .main {
@@ -221,7 +221,7 @@ body {
           align-items: center;
   height: 83vh;
   padding: 0 80px;
-  margin-bottom: 2vh;
+  margin-bottom: 1vh;
 }
 
 .main__left {
@@ -253,6 +253,7 @@ body {
   text-decoration: none;
   color: var(--light);
   font-weight: 700;
+  padding: 0;
 }
 
 .main__left-a .material-icons {
@@ -354,7 +355,7 @@ body {
 }
 
 .footer {
-  height: 5vh;
+  height: 3vh;
   padding: 0 80px;
 }
 
@@ -375,9 +376,9 @@ body {
   color: var(--light);
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 1024px) {
   .header {
-    padding: 0 15px;
+    padding: 0 25px;
   }
   .header__nav {
     display: none;
@@ -400,7 +401,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 0 15px;
+    padding: 0 25px;
   }
   .main__left {
     width: 100%;
@@ -448,7 +449,7 @@ body {
     font-size: 1rem;
   }
   .footer {
-    padding: 0 15px;
+    padding: 0 25px;
   }
   .footer__link {
     font-size: 0.6rem;
