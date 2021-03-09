@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+		/>
+
+		<link rel="icon" href="images/devchallenges.png" />
+
+		<link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+
+		<title>Interior Consultant - Devchallenges - Coded by Artur Pawlowski</title>
+
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="mobile" id="mobile-navigation">
+			<div class="mobile-navigation-header">
+				<div class="header__logo">
+					<a href="#" class="custom-btn-01 btn-01">this interior</a>
+				</div>
+
+				<div class="mobile-menu" onclick="toggleMobileNavigation()">
+					<button class="mobile-button-close"><i class="material-icons">close</i></button>
+				</div>
+			</div>
+			<nav class="navigation-mobile">
+				<a href="#" class="custom-btn-02 btn-02">Home</a>
+				<a href="#" class="custom-btn-02 btn-02">About</a>
+				<a href="#" class="custom-btn-02 btn-02">Services</a>
+				<a href="#" class="custom-btn-02 btn-02">Contact</a>
+			</nav>
+		</div>
+
+		<header>
+			<div class="container header">
+				<div class="header__logo">
+					<a href="#" class="custom-btn-01 btn-01">this interior</a>
+				</div>
+				<div class="header__nav">
+					<a href="#" class="custom-btn-02 btn-02">Home</a>
+					<a href="#" class="custom-btn-02 btn-02">Collection</a>
+					<a href="#" class="custom-btn-02 btn-02">About</a>
+					<a href="#" class="custom-btn-02 btn-02">Contact</a>
+				</div>
+				<div class="navigation-menu-mobile" onclick="toggleMobileNavigation()">
+					<button class="navigation-menu-mobile-button"><i class="material-icons">menu</i></button>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="container main">
+				<div class="main__left">
+					<h1 class="main__left-h1">Modern interior</h1>
+					<p class="main__left-p">
+						A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.
+					</p>
+					<a class="main__left-a" href="#">Read more <i class="material-icons main__left-i">trending_flat</i></a>
+				</div>
+
+				<div class="main__right">
+					<div class="main__right-photo">
+						<img src="images/photo1.png" alt="room" />
+					</div>
+					<div class="main__right-desc">
+						<div class="main__right-desc-top">
+							<div class="main__right-desc-top-photo">
+								<img src="images/photo2.png" alt="Aliza Webber" />
+							</div>
+							<div class="main__right-desc-top-desc">
+								<div class="main__right-desc-top-h4">Aliza Webber</div>
+								<div class="main__right-desc-top-p">Interior designer</div>
+							</div>
+						</div>
+						<div class="main__right-desc-bottom">
+							<div class="main__right-desc-bottom-h2">Designed in 2020 by <br />Aliza Webber</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="container footer">
+				<div class="footer__link">
+					created by <a href="https://github.com/arturpawlowski5" target="_blank">Artur Pawlowski</a> ||
+					<a href="https://devchallenges.io/" target="_blank">devChallenges.io</a>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>
